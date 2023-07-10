@@ -14,6 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  tf
 )
 
 ## System dependencies are found with CMake's conventions
@@ -152,6 +153,8 @@ include_directories(
 # target_link_libraries(${PROJECT_NAME}_node
 #   ${catkin_LIBRARIES}
 # )
+
+# find_package(catkin REQUIRED COMPONENTS tf)
 
 add_executable(set_point src/set_point.cpp)
 target_link_libraries(set_point
