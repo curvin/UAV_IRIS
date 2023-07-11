@@ -1,3 +1,0 @@
-[submodule "src/TARGET_FOLDER"]
-	path = src/TARGET_FOLDER
-	url = https://github.com/ethz-asl/rotors_simulator.git
