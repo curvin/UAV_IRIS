@@ -13,6 +13,3 @@
 [submodule "src/mav_control_rw"]
 	path = src/mav_control_rw
 	url = https://github.com/ethz-asl/mav_control_rw.git
-[submodule "src/glog_catkin"]
-	path = src/glog_catkin
-	url = https://github.com/ethz-asl/glog_catkin.git
