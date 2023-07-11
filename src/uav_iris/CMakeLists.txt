@@ -168,6 +168,12 @@ add_executable(offboard src/offboard.cpp)
 target_link_libraries(offboard
   ${catkin_LIBRARIES}
 )
+
+catkin_install_python(PROGRAMS
+  scripts/yolov5/detect.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
 #############
 ## Install ##
 #############
