@@ -169,15 +169,15 @@ target_link_libraries(offboard
   ${catkin_LIBRARIES}
 )
 
-catkin_install_python(PROGRAMS
-  scripts/yolov5/detect.py
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-)
+# catkin_install_python(PROGRAMS
+#   scripts/yolov5/detect.py
+#   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+# )
 
-catkin_install_python(PROGRAMS
-  scripts/ros_yolo.py
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-)
+# catkin_install_python(PROGRAMS
+#   scripts/ros_yolo.py
+#   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+# )
 
 
 #############
